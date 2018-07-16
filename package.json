@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
+    "dev": "npx nodemon",
     "test": "jest",
     "test:watch": "jest --watch"
   },
