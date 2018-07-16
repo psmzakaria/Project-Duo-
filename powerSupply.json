@@ -1,0 +1,296 @@
+[
+    {
+      "id": 1,
+      "brand": "Headway / Vios",
+      "model": "PowerSupply",
+      "watt": 550,
+      "price": 25
+    },
+    {
+      "id": 2,
+      "brand": "Icute",
+      "model": "Dual Fan",
+      "watt": 450,
+      "price": 45
+    },
+    {
+      "id": 3,
+      "brand": "Icute",
+      "model": "Green 80Plus",
+      "watt": 550,
+      "price": 49
+    },
+    {
+      "id": 4,
+      "brand": "Cooler Master",
+      "model": "MWE 400W",
+      "watt": 400,
+      "price": 55
+    },
+    {
+      "id": 5,
+      "brand": "Cooler Master",
+      "model": " Lite 700W",
+      "watt": 700,
+      "price": 95
+    },
+    {
+      "id": 6,
+      "brand": "Cooler Master",
+      "model": " MWE FM",
+      "watt": 750,
+      "price": 145
+    },
+    {
+      "id": 7,
+      "brand": "Cooler Master",
+      "model": "Platinum Masterwatt Maker",
+      "watt": 1200,
+      "price": 245
+    },
+    {
+      "id": 8,
+      "brand": "Cooler Master",
+      "model": "Platinum Masterwatt Maker",
+      "watt": 1500,
+      "price": 695
+    },
+    {
+      "id": 9,
+      "brand": "Cooler Master",
+      "model": "Masterwatt SM Brnz",
+      "watt": 550,
+      "price": 92
+    },
+    {
+      "id": 10,
+      "brand": "Cooler Master",
+      "model": "V750 Gold Full-mod",
+      "watt": 750,
+      "price": 185
+    },
+    {
+      "id": 11,
+      "brand": "Cooler Master",
+      "model": "V1000",
+      "watt": 1000,
+      "price": 235
+    },
+    {
+      "id": 12,
+      "brand": "Cooler Master",
+      "model": "TUF Gaming",
+      "watt": 750,
+      "price": 129
+    },
+    {
+      "id": 13,
+      "brand": "FSP",
+      "model": "Hyper K ",
+      "watt": 500,
+      "price": 64
+    },
+    {
+      "id": 14,
+      "brand": "FSP",
+      "model": "Dagger SFX Gold",
+      "watt": 600,
+      "price": 135
+    },
+    {
+      "id": 15,
+      "brand": "FSP",
+      "model": " SFX/TFX/Flex 80+",
+      "watt": 450,
+      "price": 98
+    },
+    {
+      "id": 16,
+      "brand": "AFOX",
+      "model": "Gold Mining Power Supply",
+      "watt": 3300,
+      "price": 399
+    },
+    {
+      "id": 17,
+      "brand": "AFOX",
+      "model": "Gold Mining Power Supply",
+      "watt": 2000,
+      "price": 299
+    },
+    {
+      "id": 18,
+      "brand": "AFOX",
+      "model": "Gold Mining Power Supply",
+      "watt": 1300,
+      "price": 215
+    },
+    {
+      "id": 19,
+      "brand": "Seasonic",
+      "model": " S12ii Non Modular",
+      "watt": 520,
+      "price": 82
+    },
+    {
+      "id": 20,
+      "brand": "Seasonic",
+      "model": "M12ii Modular",
+      "watt": 520,
+      "price": 103
+    },
+    {
+      "id": 21,
+      "brand": "Seasonic",
+      "model": "M12ii Modular",
+      "watt": 850,
+      "price": 164
+    },
+    {
+      "id": 22,
+      "brand": "Seasonic",
+      "model": "Focus FM",
+      "watt": 750,
+      "price": 158
+    },
+    {
+      "id": 23,
+      "brand": "Seasonic",
+      "model": "Focus Plus Gold",
+      "watt": 550,
+      "price": 134
+    },
+    {
+      "id": 24,
+      "brand": "Seasonic",
+      "model": "Focus Plus Gold",
+      "watt": 850,
+      "price": 195
+    },
+    {
+      "id": 25,
+      "brand": "Seasonic",
+      "model": "X Series",
+      "watt": 1250,
+      "price": 355
+    },
+    {
+      "id": 26,
+      "brand": "Seasonic",
+      "model": "Platinum",
+      "watt": 660,
+      "price": 229
+    },
+    {
+      "id": 27,
+      "brand": "Seasonic",
+      "model": "Platinum",
+      "watt": 1200,
+      "price": 429
+    },
+    {
+      "id": 28,
+      "brand": "Seasonic",
+      "model": "Prime Gold",
+      "watt": 650,
+      "price": 209
+    },
+    {
+      "id": 29,
+      "brand": "Seasonic",
+      "model": "Prime Gold",
+      "watt": 850,
+      "price": 275
+    },
+    {
+      "id": 30,
+      "brand": "Seasonic",
+      "model": "Prime Platinum",
+      "watt": 650,
+      "price": 239
+    },
+    {
+      "id": 31,
+      "brand": "Fractal Design",
+      "model": "Edison Semi-mod",
+      "watt": 750,
+      "price": 169
+    },
+    {
+      "id": 32,
+      "brand": "Seasonic",
+      "model": "Prime Ultra",
+      "watt": 650,
+      "price": 299
+    },
+    {
+      "id": 33,
+      "brand": "Silverstone",
+      "model": "STRIDER Essential ES230",
+      "watt": 500,
+      "price": 69
+    },
+    {
+      "id": 34,
+      "brand": "Silverstone",
+      "model": "SST-SX600-G 600w Gold SFX",
+      "watt": 600,
+      "price": 179
+    },
+    {
+      "id": 35,
+      "brand": "Silverstone",
+      "model": " SST-ST70F-PB 700W 80+Br",
+      "watt": 700,
+      "price": 139
+    },
+    {
+      "id": 36,
+      "brand": "Silverstone",
+      "model": "SST-ST45SF-G",
+      "watt": 500,
+      "price": 125
+    },
+    {
+      "id": 37,
+      "brand": "Silverstone",
+      "model": "SST-ST55F-G 550w Gold ATX",
+      "watt": 550,
+      "price": 135
+    },
+    {
+      "id": 38,
+      "brand": "Silverstone",
+      "model": "SST-ST60F-ESG 80+ Gold ATX",
+      "watt": 600,
+      "price": 138
+    },
+    {
+      "id": 39,
+      "brand": "Silverstone",
+      "model": "SST-ST65F-G 650w Gold ATX",
+      "watt": 650,
+      "price": 149
+    },
+    {
+      "id": 40,
+      "brand": "Silverstone",
+      "model": "SST-ST80TI 800W Titanium",
+      "watt": 800,
+      "price": 269
+    },
+    {
+      "id": 41,
+      "brand": "Silverstone",
+      "model": "STP1200 1200W Platinum",
+      "watt": 1200,
+      "price": 429
+    },
+    {
+      "id": 42,
+      "brand": "Silverstone",
+      "model": "Strider 1500W Gold",
+      "watt": 1500,
+      "price": 495
+    }
+   ]

@@ -1,0 +1,552 @@
+[
+    {
+      "id": 1,
+      "model_name": "Kingston",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 1600,
+      "doubleDataRate": "DDR3",
+      "piecesinKit": 1,
+      "ramAmount": 4,
+      "price": 53
+    },
+    {
+      "id": 2,
+      "model_name": "Crucial",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 1600,
+      "doubleDataRate": "DDR3",
+      "piecesinKit": 1,
+      "ramAmount": 4,
+      "price": 53
+    },
+    {
+      "id": 3,
+      "model_name": "Crucial",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 1,
+      "ramAmount": 4,
+      "price": 60
+    },
+    {
+      "id": 4,
+      "model_name": "Kingston",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 1,
+      "ramAmount": 4,
+      "price": 60
+    },
+    {
+      "id": 5,
+      "model_name": "Transcend",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 1,
+      "ramAmount": 8,
+      "price": 110
+    },
+    {
+      "id": 6,
+      "model_name": "Crucial",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 1,
+      "ramAmount": 16,
+      "price": 235
+    },
+    {
+      "id": 7,
+      "model_name": "Kingston",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 1,
+      "ramAmount": 16,
+      "price": 235
+    },
+    {
+      "id": 8,
+      "model_name": "Kingston",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 1600,
+      "doubleDataRate": "DDR3",
+      "piecesinKit": 1,
+      "ramAmount": 8,
+      "price": 105
+    },
+    {
+      "id": 9,
+      "model_name": "Crucial",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 1600,
+      "doubleDataRate": "DDR3",
+      "piecesinKit": 1,
+      "ramAmount": 8,
+      "price": 105
+    },
+    {
+      "id": 10,
+      "model_name": "Crucial",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 1,
+      "ramAmount": 8,
+      "price": 115
+    },
+    {
+      "id": 11,
+      "model_name": "Kingston",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 1,
+      "ramAmount": 8,
+      "price": 115
+    },
+    {
+      "id": 12,
+      "model_name": "Corsair Vengeance",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 1600,
+      "doubleDataRate": "DDR3",
+      "piecesinKit": 1,
+      "ramAmount": 8,
+      "price": 119
+    },
+    {
+      "id": 13,
+      "model_name": "Corsair Vengeance",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 1600,
+      "doubleDataRate": "DDR3",
+      "piecesinKit": 1,
+      "ramAmount": 16,
+      "price": 219
+    },
+    {
+      "id": 14,
+      "model_name": "Corsair Veng LPX",
+      "cpuCompatibility": "Intel and Ryzen",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 8,
+      "price": 152
+    },
+    {
+      "id": 15,
+      "model_name": "G Skill Trident Z",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 4,
+      "ramAmount": 16,
+      "price": 379
+    },
+    {
+      "id": 16,
+      "model_name": "G Skill Trident Z RBG",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 4,
+      "ramAmount": 32,
+      "price": 689
+    },
+    {
+      "id": 17,
+      "model_name": "Corsair Veng LPX",
+      "cpuCompatibility": "Intel and Ryzen",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 259
+    },
+    {
+      "id": 18,
+      "model_name": "Corsair Veng LPX",
+      "cpuCompatibility": "Intel and Ryzen",
+      "ramFrequency": 2666,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 8,
+      "price": 155
+    },
+    {
+      "id": 19,
+      "model_name": "Corsair Veng LPX",
+      "cpuCompatibility": "Intel and Ryzen",
+      "ramFrequency": 2666,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 266
+    },
+    {
+      "id": 20,
+      "model_name": "Corsair Veng LPX",
+      "cpuCompatibility": "Ryzen",
+      "ramFrequency": 2933,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 280
+    },
+    {
+      "id": 21,
+      "model_name": "Corsair Veng LPX",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3000,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 280
+    },
+    {
+      "id": 22,
+      "model_name": "Corsair Veng RGB Black",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 320
+    },
+    {
+      "id": 23,
+      "model_name": "Corsair Veng RGB CL 16",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3466,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 330
+    },
+    {
+      "id": 24,
+      "model_name": "Corsair Veng RGB White",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3600,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 335
+    },
+    {
+      "id": 25,
+      "model_name": "Corsair Veng PRO RGB ",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2666,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 289
+    },
+    {
+      "id": 26,
+      "model_name": "Corsair Veng Airflow Black",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3466,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 335
+    },
+    {
+      "id": 27,
+      "model_name": "Corsair Veng Airflow Black",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3600,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 300
+    },
+    {
+      "id": 28,
+      "model_name": "Crucial Ballistix cl 16 ",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2666,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 8,
+      "price": 135
+    },
+    {
+      "id": 29,
+      "model_name": "Crucial Ballistix cl 16 ",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2666,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 245
+    },
+    {
+      "id": 30,
+      "model_name": "Crucial Ballistix Tracer RBG",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3000,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 325
+    },
+    {
+      "id": 31,
+      "model_name": "G.Skill Rip Jaws V CL 15",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 8,
+      "price": 142
+    },
+    {
+      "id": 32,
+      "model_name": "G.Skill Rip Jaws V CL 15",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 255
+    },
+    {
+      "id": 33,
+      "model_name": "G.Skill Rip Jaws V CL 15",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2666,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 8,
+      "price": 145
+    },
+    {
+      "id": 34,
+      "model_name": "G.Skill Rip Jaws V CL 15",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2666,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 265
+    },
+    {
+      "id": 35,
+      "model_name": "G.Skill Rip Jaws V CL 15",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3000,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 270
+    },
+    {
+      "id": 36,
+      "model_name": "G.Skill Sniper X CL 16",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 268
+    },
+    {
+      "id": 37,
+      "model_name": "G.Skill Sniper X CL 18",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3600,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 268
+    },
+    {
+      "id": 38,
+      "model_name": "G.Skill Trident Z",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 290
+    },
+    {
+      "id": 39,
+      "model_name": "G.Skill Trident Z RBG",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 285
+    },
+    {
+      "id": 40,
+      "model_name": "G.Skill Trident Z RBG",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2666,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 290
+    },
+    {
+      "id": 41,
+      "model_name": "G.Skill Trident Z RBG",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3000,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 300
+    },
+    {
+      "id": 42,
+      "model_name": "G.Skill Trident Z RBG",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 315
+    },
+    {
+      "id": 43,
+      "model_name": "Kingston Hyper X Fury",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2666,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 8,
+      "price": 149
+    },
+    {
+      "id": 44,
+      "model_name": "Kingston Hyper X Fury",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 16,
+      "price": 315
+    },
+    {
+      "id": 45,
+      "model_name": "Kingston Hyper X Fury",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 609
+    },
+    {
+      "id": 46,
+      "model_name": "Corsair Veng LPX",
+      "cpuCompatibility": "Intel and Ryzen",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 499
+    },
+    {
+      "id": 47,
+      "model_name": "Corsair Veng LPX",
+      "cpuCompatibility": "Ryzen",
+      "ramFrequency": 2933,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 555
+    },
+    {
+      "id": 48,
+      "model_name": "Corsair Veng LPX",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3000,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 560
+    },
+    {
+      "id": 49,
+      "model_name": "Corsair Veng LED",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 609
+    },
+    {
+      "id": 50,
+      "model_name": "Corsair Veng RGB",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 619
+    },
+    {
+      "id": 51,
+      "model_name": "G.Skill Trident Z RBG",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 535
+    },
+    {
+      "id": 52,
+      "model_name": "G.Skill Trident Z RBG",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 619
+    },
+    {
+      "id": 53,
+      "model_name": "G.Skill Trident Z",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3200,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 549
+    },
+    {
+      "id": 54,
+      "model_name": "G.Skill Rip Jaws V",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 2400,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 505
+    },
+    {
+      "id": 55,
+      "model_name": "Crucial Ballistix Tracer RBG",
+      "cpuCompatibility": "Not Available",
+      "ramFrequency": 3000,
+      "doubleDataRate": "DDR4",
+      "piecesinKit": 2,
+      "ramAmount": 32,
+      "price": 679
+    }
+   ]

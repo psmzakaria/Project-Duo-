@@ -1,0 +1,666 @@
+[
+    {
+      "id": 1,
+      "gpu": "nvidia",
+      "brand": "Nvidia",
+      "model": "AFOX GT 730 DDR3",
+      "sizeGb": 4,
+      "price": 115
+    },
+    {
+      "id": 2,
+      "gpu": "nvidia",
+      "brand": "Nvidia",
+      "model": "AFOX GT 210 (GT 720)",
+      "sizeGb": 1,
+      "price": 69
+    },
+    {
+      "id": 3,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GT710 Low Profile",
+      "sizeGb": 1,
+      "price": 75
+    },
+    {
+      "id": 4,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GT 1030 DDR5",
+      "sizeGb": 2,
+      "price": 135
+    },
+    {
+      "id": 5,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GT 740 OC",
+      "sizeGb": 2,
+      "price": 158
+    },
+    {
+      "id": 6,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1050 Dual OC",
+      "sizeGb": 2,
+      "price": 240
+    },
+    {
+      "id": 7,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1050Ti STRIX DC2 Gaming",
+      "sizeGb": 4,
+      "price": 352
+    },
+    {
+      "id": 8,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1050Ti Cereberus",
+      "sizeGb": 4,
+      "price": 355
+    },
+    {
+      "id": 9,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1060 STRIX Gaming D5",
+      "sizeGb": 6,
+      "price": 605
+    },
+    {
+      "id": 10,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": ". GTX1060 STRIX Direct DC2O",
+      "sizeGb": 6,
+      "price": 565
+    },
+    {
+      "id": 11,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1060 Dual DDR5",
+      "sizeGb": 6,
+      "price": 535
+    },
+    {
+      "id": 12,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1060 Turbo",
+      "sizeGb": 6,
+      "price": 628
+    },
+    {
+      "id": 13,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1070 Turbo DDR5",
+      "sizeGb": 8,
+      "price": 755
+    },
+    {
+      "id": 14,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1070 STRIX",
+      "sizeGb": 8,
+      "price": 869
+    },
+    {
+      "id": 15,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1070ti ROG STRIX",
+      "sizeGb": 8,
+      "price": 897
+    },
+    {
+      "id": 16,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1080 Turbo DDR5 8GB",
+      "sizeGb": 8,
+      "price": 878
+    },
+    {
+      "id": 17,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1080 STRIX Advanced Edition",
+      "sizeGb": 8,
+      "price": 998
+    },
+    {
+      "id": 18,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1080 ROG Strix Aura Triple OC",
+      "sizeGb": 8,
+      "price": 1079
+    },
+    {
+      "id": 19,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1080Ti Turbo",
+      "sizeGb": 11,
+      "price": 1245
+    },
+    {
+      "id": 20,
+      "gpu": "nvidia",
+      "brand": "Asus",
+      "model": "GTX1080Ti Strix Gaming Edition",
+      "sizeGb": 11,
+      "price": 1689
+    },
+    {
+      "id": 21,
+      "gpu": "nvidia",
+      "brand": "LEADTEK",
+      "model": "GTX1060",
+      "sizeGb": 6,
+      "price": 449
+    },
+    {
+      "id": 22,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N210SL-1GI GT 210",
+      "sizeGb": 1,
+      "price": 69
+    },
+    {
+      "id": 23,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N710D3-1GL GT 710",
+      "sizeGb": 1,
+      "price": 75
+    },
+    {
+      "id": 24,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N1030SL-2GL",
+      "sizeGb": 2,
+      "price": 135
+    },
+    {
+      "id": 25,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N1030OC-2GI GT1030",
+      "sizeGb": 2,
+      "price": 139
+    },
+    {
+      "id": 26,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N1050OC-2G",
+      "sizeGb": 2,
+      "price": 235
+    },
+    {
+      "id": 27,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N1050WF2OC-2GD GTX 1050",
+      "sizeGb": 2,
+      "price": 249
+    },
+    {
+      "id": 28,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N1050G1 GAMING-2GD GTX 1050",
+      "sizeGb": 2,
+      "price": 265
+    },
+    {
+      "id": 29,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "N105TOC-4GL GTX 1050Ti",
+      "sizeGb": 4,
+      "price": 340
+    },
+    {
+      "id": 30,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "N105TWF2OC-4GD GTX 1050Ti",
+      "sizeGb": 4,
+      "price": 339
+    },
+    {
+      "id": 31,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N105TG1 GAMING-4GD GTX 1050Ti",
+      "sizeGb": 4,
+      "price": 352
+    },
+    {
+      "id": 32,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N1060IXOC-3GD GTX 1060",
+      "sizeGb": 3,
+      "price": 385
+    },
+    {
+      "id": 33,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N1060WF2OC-3GD GTX 1060",
+      "sizeGb": 3,
+      "price": 412
+    },
+    {
+      "id": 34,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N1060G1 GAMING-3GD GTX 1060",
+      "sizeGb": 3,
+      "price": 416
+    },
+    {
+      "id": 35,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N1060IXOC-6GD GTX 1060",
+      "sizeGb": 6,
+      "price": 509
+    },
+    {
+      "id": 36,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "Windforce GTX1060",
+      "sizeGb": 6,
+      "price": 515
+    },
+    {
+      "id": 37,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "G1 Gaming GTX1060",
+      "sizeGb": 6,
+      "price": 539
+    },
+    {
+      "id": 38,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "ITX Windforce GTX1070",
+      "sizeGb": 8,
+      "price": 755
+    },
+    {
+      "id": 39,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "Windforce GTX1070",
+      "sizeGb": 8,
+      "price": 765
+    },
+    {
+      "id": 40,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "G1 Gaming GTX1070",
+      "sizeGb": 8,
+      "price": 772
+    },
+    {
+      "id": 41,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "Gaming GTX1070Ti",
+      "sizeGb": 8,
+      "price": 815
+    },
+    {
+      "id": 42,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "Gaming Extreme OC GTX1070Ti",
+      "sizeGb": 8,
+      "price": 955
+    },
+    {
+      "id": 43,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "Aorus Xtreme GTX1080",
+      "sizeGb": 8,
+      "price": 1030
+    },
+    {
+      "id": 44,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": " Windforce OC GTX1080",
+      "sizeGb": 8,
+      "price": 925
+    },
+    {
+      "id": 45,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": " G1 Gaming GTX1080",
+      "sizeGb": 8,
+      "price": 950
+    },
+    {
+      "id": 46,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "GV-N1080IXEB-8GD Gaming Box",
+      "sizeGb": 8,
+      "price": 1119
+    },
+    {
+      "id": 47,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "Gaming OC GTX1080TI",
+      "sizeGb": 11,
+      "price": 1440
+    },
+    {
+      "id": 48,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "Aorus GTX1080TI",
+      "sizeGb": 11,
+      "price": 1505
+    },
+    {
+      "id": 49,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "Aorus Extreme GTX1080Ti",
+      "sizeGb": 11,
+      "price": 1530
+    },
+    {
+      "id": 50,
+      "gpu": "nvidia",
+      "brand": "Gigabyte",
+      "model": "Waterforce GTX1080TI",
+      "sizeGb": 11,
+      "price": 1690
+    },
+    {
+      "id": 51,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": "GT1030 2G Low Profile OCV1",
+      "sizeGb": 2,
+      "price": 129
+    },
+    {
+      "id": 52,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": "GTX1050 Aero ITX OC",
+      "sizeGb": 2,
+      "price": 245
+    },
+    {
+      "id": 53,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": " GTX1050Ti OC",
+      "sizeGb": 4,
+      "price": 289
+    },
+    {
+      "id": 54,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": " GTX1050Ti Gam X",
+      "sizeGb": 4,
+      "price": 339
+    },
+    {
+      "id": 55,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": " GTX1060 OCV2",
+      "sizeGb": 6,
+      "price": 449
+    },
+    {
+      "id": 56,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": "GTX1060 Armor",
+      "sizeGb": 6,
+      "price": 515
+    },
+    {
+      "id": 57,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": "GTX1060 Gaming X",
+      "sizeGb": 6,
+      "price": 530
+    },
+    {
+      "id": 58,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": "GTX1070 Armor",
+      "sizeGb": 8,
+      "price": 720
+    },
+    {
+      "id": 59,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": "GTX1070Ti Armor",
+      "sizeGb": 8,
+      "price": 737
+    },
+    {
+      "id": 60,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": "GTX1070Ti Gaming X",
+      "sizeGb": 8,
+      "price": 825
+    },
+    {
+      "id": 61,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": " GTX1070Ti Titanium",
+      "sizeGb": 8,
+      "price": 845
+    },
+    {
+      "id": 62,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": "GTX1080 Gaming X",
+      "sizeGb": 8,
+      "price": 919
+    },
+    {
+      "id": 63,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": "GTX1080Ti Duke",
+      "sizeGb": 11,
+      "price": 1197
+    },
+    {
+      "id": 64,
+      "gpu": "nvidia",
+      "brand": "MSI",
+      "model": "GTX1080Ti GamingX Trio",
+      "sizeGb": 11,
+      "price": 1220
+    },
+    {
+      "id": 65,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "RX560-O4G-EVO DUAL FAN",
+      "sizeGb": 4,
+      "price": 255
+    },
+    {
+      "id": 66,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "ROG-STRIX-RX560-O4G-EVO-GAMING",
+      "sizeGb": 4,
+      "price": 265
+    },
+    {
+      "id": 67,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "ROG-STRIX-RX570-O4G-GAMING",
+      "sizeGb": 4,
+      "price": 589
+    },
+    {
+      "id": 68,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "DUAL-RX580-4G DUAL FAN",
+      "sizeGb": 4,
+      "price": 520
+    },
+    {
+      "id": 69,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "DUAL-RX580-O4G OC Dual Fan",
+      "sizeGb": 4,
+      "price": 530
+    },
+    {
+      "id": 70,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "DUAL-RX580-8G",
+      "sizeGb": 8,
+      "price": 580
+    },
+    {
+      "id": 71,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "DUAL-RX580-O8GDUAL FAN OC",
+      "sizeGb": 8,
+      "price": 609
+    },
+    {
+      "id": 72,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "ROG-STRIX-RX580-O8G-GAMING",
+      "sizeGb": 8,
+      "price": 639
+    },
+    {
+      "id": 73,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "ROG-STRIX-RX580-T8G-GAMING",
+      "sizeGb": 8,
+      "price": 669
+    },
+    {
+      "id": 74,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "ROG-STRIX-RXVEGA56-O8G-GAMING",
+      "sizeGb": 8,
+      "price": 1229
+    },
+    {
+      "id": 75,
+      "gpu": "AMD Radeon",
+      "brand": "Asus",
+      "model": "ROG-STRIX-RXVEGA64-O8G-GAMING",
+      "sizeGb": 8,
+      "price": 1359
+    },
+    {
+      "id": 76,
+      "gpu": "AMD Radeon",
+      "brand": "ATI Radeon",
+      "model": "AFOX HD6450 (AFOX R5 230)",
+      "sizeGb": 2,
+      "price": 109
+    },
+    {
+      "id": 77,
+      "gpu": "AMD Radeon",
+      "brand": "ATI Radeon",
+      "model": "Vega56 Red Devil",
+      "sizeGb": 8,
+      "price": 898
+    },
+    {
+      "id": 78,
+      "gpu": "AMD Radeon",
+      "brand": "ATI Radeon",
+      "model": "Vega64 Red Devil",
+      "sizeGb": 8,
+      "price": 1049
+    },
+    {
+      "id": 79,
+      "gpu": "AMD Radeon",
+      "brand": "Gigabyte",
+      "model": "RX 570 Radeon Mining Card",
+      "sizeGb": 4,
+      "price": 459
+    },
+    {
+      "id": 80,
+      "gpu": "AMD Radeon",
+      "brand": "Gigabyte",
+      "model": "RX 570 Mining Card",
+      "sizeGb": 8,
+      "price": 535
+    },
+    {
+      "id": 81,
+      "gpu": "AMD Radeon",
+      "brand": "Gigabyte",
+      "model": "RX 580 Gaming",
+      "sizeGb": 8,
+      "price": 579
+    },
+    {
+      "id": 82,
+      "gpu": "AMD Radeon",
+      "brand": "Gigabyte",
+      "model": "RX580 Mining Card",
+      "sizeGb": 8,
+      "price": 595
+    },
+    {
+      "id": 83,
+      "gpu": "AMD Radeon",
+      "brand": "Gigabyte",
+      "model": "RX Vega 64",
+      "sizeGb": 8,
+      "price": 1188
+    }
+   ]

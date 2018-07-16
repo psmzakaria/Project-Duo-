@@ -1,0 +1,282 @@
+[
+    {
+      "id": 1,
+      "brand": "Generic",
+      "model": "Casing Models no PSU- V3/V5/603/608/192 .",
+      "formFactor": "ATX",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "brand": "HW M07",
+      "model": "Casing w.Card Reader/400w/S607",
+      "formFactor": "m-ATX",
+      "price": 58
+    },
+    {
+      "id": 3,
+      "brand": "Cooler Master ",
+      "model": " Elite 110A/ 111",
+      "formFactor": "M-ITX",
+      "price": 68
+    },
+    {
+      "id": 4,
+      "brand": "Cooler Master ",
+      "model": " Elite 130",
+      "formFactor": "M-ITX",
+      "price": 81
+    },
+    {
+      "id": 5,
+      "brand": "Cooler Master ",
+      "model": "Elite 343 / 344",
+      "formFactor": null,
+      "price": 56
+    },
+    {
+      "id": 6,
+      "brand": "Cooler Master ",
+      "model": "Elite 431 PLUS",
+      "formFactor": "ATX",
+      "price": 69
+    },
+    {
+      "id": 7,
+      "brand": "Cooler Master ",
+      "model": "N300",
+      "formFactor": "ATX",
+      "price": 66
+    },
+    {
+      "id": 8,
+      "brand": "Cooler Master ",
+      "model": "CM690 III-white-USB3.0",
+      "formFactor": null,
+      "price": 128
+    },
+    {
+      "id": 9,
+      "brand": "Cooler Master ",
+      "model": "MB500 RGB",
+      "formFactor": "ATX",
+      "price": 125
+    },
+    {
+      "id": 10,
+      "brand": "Cooler Master ",
+      "model": " SILENCIO 352 MATT",
+      "formFactor": null,
+      "price": 81
+    },
+    {
+      "id": 11,
+      "brand": "Cooler Master ",
+      "model": "SILENCIO 652s",
+      "formFactor": "ATX",
+      "price": 147
+    },
+    {
+      "id": 12,
+      "brand": "Cooler Master ",
+      "model": "Lite-3/ LIte3.1",
+      "formFactor": "m-ATX",
+      "price": 78
+    },
+    {
+      "id": 13,
+      "brand": "Cooler Master ",
+      "model": "MASTERCASE 5 Pro",
+      "formFactor": null,
+      "price": 198
+    },
+    {
+      "id": 14,
+      "brand": "Cooler Master ",
+      "model": "MASTERCASE 5 Modular Free Tempered Glass",
+      "formFactor": null,
+      "price": 157
+    },
+    {
+      "id": 15,
+      "brand": "Cooler Master ",
+      "model": "Q300L",
+      "formFactor": "m-ATX",
+      "price": 68
+    },
+    {
+      "id": 16,
+      "brand": "Cooler Master ",
+      "model": "MC600P",
+      "formFactor": null,
+      "price": 198
+    },
+    {
+      "id": 17,
+      "brand": "Corsair",
+      "model": "Carbide Series 200R",
+      "formFactor": "ATX",
+      "price": 89
+    },
+    {
+      "id": 18,
+      "brand": "Corsair",
+      "model": "300R",
+      "formFactor": null,
+      "price": 110
+    },
+    {
+      "id": 19,
+      "brand": "Corsair",
+      "model": "Obsidian 450D",
+      "formFactor": "ITX",
+      "price": 170
+    },
+    {
+      "id": 20,
+      "brand": "Corsair",
+      "model": "Obsidian 350D",
+      "formFactor": null,
+      "price": 144
+    },
+    {
+      "id": 21,
+      "brand": "Corsair",
+      "model": "Air 240",
+      "formFactor": "m-ATX",
+      "price": 139
+    },
+    {
+      "id": 22,
+      "brand": "Corsair",
+      "model": "AIR 570X RGB",
+      "formFactor": null,
+      "price": 278
+    },
+    {
+      "id": 23,
+      "brand": "Corsair",
+      "model": "Graphite Series 780T",
+      "formFactor": null,
+      "price": 298
+    },
+    {
+      "id": 24,
+      "brand": "Corsair",
+      "model": "Carbide 600C Clear Case",
+      "formFactor": null,
+      "price": 228
+    },
+    {
+      "id": 25,
+      "brand": "Corsair",
+      "model": "460X RGB",
+      "formFactor": "ATX",
+      "price": 235
+    },
+    {
+      "id": 26,
+      "brand": "Phantek",
+      "model": "Eclipse P400s",
+      "formFactor": null,
+      "price": 138
+    },
+    {
+      "id": 27,
+      "brand": "Phantek",
+      "model": "Enthoo Luxe",
+      "formFactor": null,
+      "price": 246
+    },
+    {
+      "id": 28,
+      "brand": "Phantek",
+      "model": "Evolv",
+      "formFactor": "ATX",
+      "price": 267
+    },
+    {
+      "id": 29,
+      "brand": "Phantek",
+      "model": "Evolv",
+      "formFactor": "ITX",
+      "price": 124
+    },
+    {
+      "id": 30,
+      "brand": "Sharkoon",
+      "model": " TG5-Blue/Red/White",
+      "formFactor": "ATX",
+      "price": 96
+    },
+    {
+      "id": 31,
+      "brand": "Sharkoon",
+      "model": "DG7000",
+      "formFactor": "ATX",
+      "price": 85
+    },
+    {
+      "id": 32,
+      "brand": "Tecware",
+      "model": "Nexus M",
+      "formFactor": null,
+      "price": 59
+    },
+    {
+      "id": 33,
+      "brand": "Tecware",
+      "model": "Verge",
+      "formFactor": "ATX",
+      "price": 118
+    },
+    {
+      "id": 34,
+      "brand": "NZXT",
+      "model": "MANTA",
+      "formFactor": "ITX",
+      "price": 230
+    },
+    {
+      "id": 35,
+      "brand": "NZXT",
+      "model": "S340 Elite Tempered Case / Razer / Matte Black Red Gr",
+      "formFactor": null,
+      "price": 166
+    },
+    {
+      "id": 36,
+      "brand": "NZXT",
+      "model": "PHANTOM H440",
+      "formFactor": null,
+      "price": 193
+    },
+    {
+      "id": 37,
+      "brand": "NZXT",
+      "model": "Noctis 450 white Ultra",
+      "formFactor": null,
+      "price": 227
+    },
+    {
+      "id": 38,
+      "brand": "NZXT",
+      "model": "Premium Series H400i",
+      "formFactor": null,
+      "price": 245
+    },
+    {
+      "id": 39,
+      "brand": "NZXT",
+      "model": "H500",
+      "formFactor": "ATX",
+      "price": 118
+    },
+    {
+      "id": 40,
+      "brand": "VIOS",
+      "model": "S607 Slim-Red/blue/black/silver",
+      "formFactor": "M-ATX",
+      "price": 68
+    }
+   ]

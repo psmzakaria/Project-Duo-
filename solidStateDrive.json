@@ -1,0 +1,182 @@
+[
+    {
+      "id": 1,
+      "brand": "Patriot",
+      "model": "3D SSD 3",
+      "type": "SSD",
+      "128_gb": "63",
+      "256_gb": "100",
+      "512_gb": "169",
+      "1TB": null
+    },
+    {
+      "id": 2,
+      "brand": "Sandisk",
+      "model": "Plus",
+      "type": "SSD",
+      "128_gb": "74",
+      "256_gb": "102",
+      "512_gb": "170",
+      "1TB": "355"
+    },
+    {
+      "id": 3,
+      "brand": "Sandisk",
+      "model": "Ultra II 3D",
+      "type": "SSD",
+      "128_gb": null,
+      "256_gb": "145",
+      "512_gb": "298",
+      "1TB": "445"
+    },
+    {
+      "id": 4,
+      "brand": "Fujitsu",
+      "model": "Standard",
+      "type": "SSD",
+      "128_gb": "90",
+      "256_gb": "134",
+      "512_gb": "234",
+      "1TB": "428"
+    },
+    {
+      "id": 5,
+      "brand": "Kingston",
+      "model": "Standard",
+      "type": "SSD",
+      "128_gb": "90",
+      "256_gb": "134",
+      "512_gb": "234",
+      "1TB": "428"
+    },
+    {
+      "id": 6,
+      "brand": "Western Digital",
+      "model": "Standard",
+      "type": "SSD",
+      "128_gb": "90",
+      "256_gb": "134",
+      "512_gb": "234",
+      "1TB": "428"
+    },
+    {
+      "id": 7,
+      "brand": "Plextor",
+      "model": "S3",
+      "type": "SSD",
+      "128_gb": "105",
+      "256_gb": "155",
+      "512_gb": "255",
+      "1TB": "485"
+    },
+    {
+      "id": 8,
+      "brand": "Transcend",
+      "model": "Standard",
+      "type": "SSD",
+      "128_gb": null,
+      "256_gb": "109",
+      "512_gb": "155",
+      "1TB": "470"
+    },
+    {
+      "id": 9,
+      "brand": "Seagate",
+      "model": "Nytro XF1230 Sata 6gbps",
+      "type": "SSD",
+      "128_gb": null,
+      "256_gb": "225",
+      "512_gb": "480",
+      "1TB": "755"
+    },
+    {
+      "id": 10,
+      "brand": "Western Digital",
+      "model": "Green",
+      "type": "SSD",
+      "128_gb": "79",
+      "256_gb": "125",
+      "512_gb": "228",
+      "1TB": "409"
+    },
+    {
+      "id": 11,
+      "brand": "Samsung",
+      "model": "860 Evo",
+      "type": "SSD",
+      "128_gb": "109",
+      "256_gb": "128",
+      "512_gb": "198",
+      "1TB": "408"
+    },
+    {
+      "id": 12,
+      "brand": "Samsung",
+      "model": "850 Pro",
+      "type": "SSD",
+      "128_gb": null,
+      "256_gb": null,
+      "512_gb": null,
+      "1TB": "645"
+    },
+    {
+      "id": 13,
+      "brand": "Samsung",
+      "model": "860 Pro",
+      "type": "SSD",
+      "128_gb": null,
+      "256_gb": "168",
+      "512_gb": "289",
+      "1TB": "579"
+    },
+    {
+      "id": 14,
+      "brand": "Crucial",
+      "model": "MX500",
+      "type": "SSD",
+      "128_gb": null,
+      "256_gb": "138",
+      "512_gb": "220",
+      "1TB": "420"
+    },
+    {
+      "id": 15,
+      "brand": "OCZ",
+      "model": "Vertex460",
+      "type": "SSD",
+      "128_gb": "99",
+      "256_gb": "165",
+      "512_gb": "329",
+      "1TB": null
+    },
+    {
+      "id": 16,
+      "brand": "Samsung",
+      "model": "860 Evo M.2",
+      "type": "SSD",
+      "128_gb": null,
+      "256_gb": "124",
+      "512_gb": "197",
+      "1TB": "399"
+    },
+    {
+      "id": 17,
+      "brand": "Samsung",
+      "model": "970 EVO, NVMe",
+      "type": "SSD",
+      "128_gb": null,
+      "256_gb": "165",
+      "512_gb": "288",
+      "1TB": "569"
+    },
+    {
+      "id": 18,
+      "brand": "Samsung",
+      "model": "970 PRO",
+      "type": "SSD",
+      "128_gb": null,
+      "256_gb": null,
+      "512_gb": "335",
+      "1TB": "792"
+    }
+   ]
