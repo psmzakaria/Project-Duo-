@@ -39,6 +39,14 @@ afterAll(() => {
   mongod.stop();
 });
 
+test("GET /cpu should return back all the cpus in the test DB", async () => {
+  const response = await request(app).get("/cpu");
+  const expectedCpus = await cpuModel.find();
+
+  expect(response.status).toBe(200);
+  expect(response.body.length).toEqual(expectedCpus.length);
+});
+
 test("GET/:id", async () => {
   const response = await request(app).get("/cpu/" + savedCpus1._id);
   expect(response.status).toBe(200);
@@ -61,22 +69,21 @@ test("POST/", async () => {
   expect(cpus.length).toBe(2);
 });
 
-// test("PUT /:id should update book", async () => {
-//   const id = "100";
-//   const processor = `new ${processor}`;
-//   const model = "Gamma";
-//   const variant = "Epsilon";
-//   const cpus = new cpuModel({ title: TITLE, summary: SUMMARY });
+test.only("PUT /cpu should update the cpus with a given id the test DB", async () => {
+  const updateCpu = { processor: "AMD Ryzen New" };
+  const response = await request(app)
+    .put("/cpu/" + savedCpus1._id)
+    .send(updateCpu);
+  const updatedCpu = await cpuModel.findById(savedCpus1._id);
 
-//   await cpuModel.save();
+  expect(response.status).toBe(204);
+  expect(updatedCpu.processor).toEqual(updateCpu.processor);
+});
 
-//   const response = await request(app)
-//     .put(`/${book.id}`)
-//     .send({ title: NEW_TITLE, summary: SUMMARY });
+test("Delete/ a cpu with a given id should be deleted from the test DB", async () => {
+  const response = await request(app).delete("/cpu/" + savedCpus1._id);
+  const deleteCpu = await cpuModel.findById(savedCpus1._id);
 
-//   expect(response.status).toEqual(200);
-//   expect(response.header["content-type"]).toContain("application/json");
-//   expect(response.body.message).toEqual("book updated");
-//   expect(response.body.cpuModel.id).toEqual(100);
-//   expect(response.body.b.summary).toEqual(SUMMARY);
-// });
+  expect(response.status).toBe(204);
+  expect(deleteCpu).toBeNull;
+});
