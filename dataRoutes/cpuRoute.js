@@ -1,39 +1,49 @@
 const express = require("express");
 const cpurouter = express.Router();
+const CpuModel = require("./../models/cpu");
 let cpuData = require("./../utilis/cpuprocessorData.json");
 
 //GET all the cpu data
-cpurouter.get("/", (req, res) => {
-  res.json(cpuData);
+cpurouter.get("/", async (req, res, next) => {
+  const cpu = await CpuModel.find();
+  res.status(200).json(cpu);
 });
 
 //GET only processor data
-cpurouter.get("/:processor", (req, res) => {
-  const processors = cpuData.filter(
-    element => element.processor === req.params.processor
-  );
-  res.json(processors);
+cpurouter.get("/:id", async (req, res, next) => {
+  const findCpu = await CpuModel.findById(req.params.id);
+  res.json(findCpu);
 });
 
 //POST processor data
-cpurouter.post("/", (req, res) => {
-  cpuData = [...cpuData, req.body];
-  res.json(cpuData);
+cpurouter.post("/", async (req, res, next) => {
+  const newCpu = new CpuModel({
+    id: req.body.id,
+    processor: req.body.processor,
+    model: req.body.model,
+    varaint: req.body.variant,
+    price: req.body.price
+  });
+  await newCpu.save();
+  res.status(201).json({ message: `You have created a new CPU Processor` });
 });
 
 //PUT processor data via id number
-cpurouter.put("/:id", (req, res) => {
-  cpuData = cpuData.map(data => {
-    const findId = req.params.id;
-    if (data.model === findId) return Object.assign(data, req.body);
-    else return data;
-  });
-  res.json(cpuData);
+cpurouter.put("/:id", async (req, res, next) => {
+  console.log("Hello");
+  const testing = await CpuModel.findByIdAndUpdate(req.params.id, req.body);
+  console.log(testing);
+  res.status(204).json();
 });
 
 //DELETE processor by its id number
-cpurouter.delete("/:id", (req, res) => {
-  remainingProcessor = cpuData.filter(data => data.id != req.params.id);
-  res.json(remainingProcessor);
+cpurouter.delete("/:id", async (req, res, next) => {
+  await CpuModel.findByIdAndDelete(req.params.id, req.body);
+  res.status(204).json();
 });
-module.exports = cpurouter;
+
+//Export router in a mongodb use case
+module.exports = app => {
+  app.use(express.json());
+  app.use("/cpu", cpurouter);
+};
