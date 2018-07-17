@@ -17,19 +17,23 @@ cpurouter.get("/:processor", (req, res) => {
 
 //POST processor data
 cpurouter.post("/", (req, res) => {
-    cpuData = [...cpuData, req.body];
-    res.json(cpuData);
+  cpuData = [...cpuData, req.body];
+  res.json(cpuData);
+});
+
+//PUT processor data via id number
+cpurouter.put("/:id", (req, res) => {
+  cpuData = cpuData.map(data => {
+    const findId = req.params.id;
+    if (data.model === findId) return Object.assign(data, req.body);
+    else return data;
   });
+  res.json(cpuData);
+});
 
-//PUT processor data via processor name 
-router.put("/data/:name", (req, res) => {
-    data = data.map(data => {
-      const wahlenSchutz = req.params.name;
-      if (data.name === wahlenSchutz) return Object.assign(data, req.body);
-      else return data;
-    });
-    res.send(data);
-  });
-
-
+//DELETE processor by its id number
+cpurouter.delete("/:id", (req, res) => {
+  remainingProcessor = cpuData.filter(data => data.id != req.params.id);
+  res.json(remainingProcessor);
+});
 module.exports = cpurouter;
