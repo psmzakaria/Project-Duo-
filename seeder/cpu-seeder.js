@@ -20,7 +20,7 @@ seeder.connect(
 // Data array containing seed data - documents organized by cpuModel
 var data = [
   {
-    model: "CpuModel",
+    model: "CpuModel",  
     documents: [
       {
         id: 1,

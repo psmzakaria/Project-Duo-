@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 const express = require("express");
-const { passport } = require("./../projectduo/dataRoutes/passportt");
+const { passport } = require("./dataRoutes/passport");
 const morgan = require("morgan");
 const cpurouter = require("./dataRoutes/cpuRoute");
 const motherboardrouter = require("./dataRoutes/motherboardroute");
 const { handle404, handle500 } = require("./Middleware/errorHandler");
-
+const router = require("./dataRoutes/userroute");
 const bodyParser = require("body-parser");
 const mongodb_uri =
   process.env.MONGODB_URI || "mongodb://localhost/mongoDB-computers";
@@ -20,13 +20,13 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(passport.initialize());
 app.use(bodyParser());
-app.use("/motherboard", motherboardrouter);
 app.get("/", function(req, res) {
   res.json("Hello World!");
 });
-
+motherboardrouter(app);
+router(app);
+cpurouter(app);
 app.use(handle404);
 app.use(handle500);
-cpurouter(app);
 
 module.exports = app;

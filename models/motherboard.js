@@ -9,5 +9,5 @@ const motherboardschema = mongoose.Schema({
 });
 
 //Export model
-const moherboardModel = mongoose.model("motherboardModel", motherboardschema);
-module.exports = motherboardModel;
+const MotherboardModel = mongoose.model("MotherboardModel", motherboardschema);
+module.exports = MotherboardModel;

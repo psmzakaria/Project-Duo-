@@ -1,17 +1,28 @@
 const express = require("express");
 const motherboardrouter = express.Router();
 const motherboardModel = require("./../models/motherboard");
-let motherboardData = require("./../utilis/motherboardData.json");
 
 //GET all the motherboard data
 motherboardrouter.get("/", async (req, res, next) => {
-  const motherboard = await motherboardModel.find();
-  res.status(200).json(motherboard);
+  const motherboards = await motherboardModel.find();
+  
+  if (req.query == {}) {
+    res.status(200).json(motherboards);
+  } else {
+    const requestedModel = req.query.model.toLowerCase()
+
+    const filteredBoards = motherboards.filter(board => {
+      currentBoardName = board.model.toLowerCase()
+      return currentBoardName.includes(requestedModel)
+    })
+
+    res.status(200).json(filteredBoards)
+  }
 });
 
 //GET only a specific motherboard model data
-motherboardrouter.get("/:model", async (req, res, next) => {
-  const findMotherboard = await motherboardModel.findById(req.params.model);
+motherboardrouter.get("/:id", async (req, res, next) => {
+  const findMotherboard = await motherboardModel.findById(req.params.id);
   res.json(findMotherboard);
 });
 
