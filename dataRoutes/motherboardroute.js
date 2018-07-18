@@ -1,18 +1,47 @@
 const express = require("express");
 const motherboardrouter = express.Router();
-const motherboardData = require("./../utilis/motherboardData.json");
+const motherboardModel = require("./../models/motherboard");
+let motherboardData = require("./../utilis/motherboardData.json");
 
 //GET all the motherboard data
-motherboardrouter.get("/", (req, res) => {
-  res.json(motherboardData);
+motherboardrouter.get("/", async (req, res, next) => {
+  const motherboard = await motherboardModel.find();
+  res.status(200).json(motherboard);
 });
 
-//GET only specific motherboard data
-motherboardrouter.get("/:model", (req, res) => {
-  const models = motherboardData.filter(
-    element => element.model === req.params.model
+//GET only a specific motherboard model data
+motherboardrouter.get("/:model", async (req, res, next) => {
+  const findMotherboard = await motherboardModel.findById(req.params.model);
+  res.json(findMotherboard);
+});
+
+//POST motherboard data
+motherboardrouter.post("/", async (req, res, next) => {
+  const newMotherboard = new motherboardModel({
+    id: req.body.id,
+    model: req.body.model,
+    cpuCompability: req.body.cpuCompability,
+    price: req.body.price
+  });
+  await newMotherboard.save();
+  res.status(201).json({ message: `You have created a new Motherboard` });
+});
+
+//PUT motherboard data via id number
+motherboardrouter.put("/:id", async (req, res, next) => {
+  const testing = await motherboardModel.findByIdAndUpdate(
+    req.params.id,
+    req.body
   );
-  res.json(models);
+  res.status(204).json();
 });
-
-module.exports = motherboardrouter;
+//DELETE motherboard by its id number
+motherboardrouter.delete("/:id", async (req, res, next) => {
+  await motherboardModel.findByIdAndDelete(req.params.id, req.body);
+  res.status(204).json();
+});
+//Export router in a mongodb use case
+module.exports = app => {
+  app.use(express.json());
+  app.use("/motherboard", motherboardrouter);
+};

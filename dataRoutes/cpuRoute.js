@@ -1,6 +1,7 @@
 const express = require("express");
 const cpurouter = express.Router();
 const CpuModel = require("./../models/cpu");
+const passport=require("./passport")
 let cpuData = require("./../utilis/cpuprocessorData.json");
 
 //GET all the cpu data
@@ -29,10 +30,8 @@ cpurouter.post("/", async (req, res, next) => {
 });
 
 //PUT processor data via id number
-cpurouter.put("/:id", async (req, res, next) => {
-  console.log("Hello");
+cpurouter.put("/:id",passport.authenticate("jwt", { session: false }), async (req, res, next) => {
   const testing = await CpuModel.findByIdAndUpdate(req.params.id, req.body);
-  console.log(testing);
   res.status(204).json();
 });
 
