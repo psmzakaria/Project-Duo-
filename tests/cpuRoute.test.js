@@ -5,10 +5,10 @@ const cpuModel = require("./../models/cpu");
 const { MongoMemoryServer } = require("mongodb-memory-server");
 const mongod = new MongoMemoryServer();
 const mongoose = require("mongoose");
-
+const userroute = require("./../dataRoutes/userroute");
 const app = express();
 cpurouter(app);
-
+userroute(app);
 let savedCpus1;
 
 async function addFakeCpus() {
@@ -27,10 +27,18 @@ beforeAll(async () => {
 
   const uri = await mongod.getConnectionString();
   await mongoose.connect(uri);
+  const user1 = { username: "zakaria", password: "password" };
+  await request(app)
+    .post("/users/signup")
+    .send(user1);
+  let response = await request(app)
+    .post("/users/signin")
+    .send(user1);
+  jwtTokenUser1 = response.body.token;
 });
 
 beforeEach(async () => {
-  mongoose.connection.db.dropDatabase();
+  // mongoose.connection.db.dropDatabase();
   await addFakeCpus();
 });
 
@@ -61,19 +69,25 @@ test("POST/", async () => {
     variant: "Epsilon Theta Psi",
     price: 10099
   };
+
   const response = await request(app)
     .post("/cpu")
-    .send(newCpu);
-  expect(response.status).toBe(201);
+    .send(newCpu)
+    .set("Authorization", "Bearer " + jwtTokenUser1);
+
   const cpus = await cpuModel.find();
-  expect(cpus.length).toBe(2);
+
+  expect(response.status).toEqual(201);
+  expect(cpus.length).toBe(4);
 });
 
-test.only("PUT /cpu should update the cpus with a given id the test DB", async () => {
+test("PUT /cpu should update the cpus with a given id the test DB", async () => {
   const updateCpu = { processor: "AMD Ryzen New" };
   const response = await request(app)
     .put("/cpu/" + savedCpus1._id)
-    .send(updateCpu);
+    .send(updateCpu)
+    .set("Authorization", "Bearer " + jwtTokenUser1);
+
   const updatedCpu = await cpuModel.findById(savedCpus1._id);
 
   expect(response.status).toBe(204);
@@ -81,7 +95,9 @@ test.only("PUT /cpu should update the cpus with a given id the test DB", async (
 });
 
 test("Delete/ a cpu with a given id should be deleted from the test DB", async () => {
-  const response = await request(app).delete("/cpu/" + savedCpus1._id);
+  const response = await request(app)
+    .delete("/cpu/" + savedCpus1._id)
+    .set("Authorization", "Bearer " + jwtTokenUser1);
   const deleteCpu = await cpuModel.findById(savedCpus1._id);
 
   expect(response.status).toBe(204);

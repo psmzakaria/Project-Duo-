@@ -1,4 +1,4 @@
-var seeder = require("mongoose-seed");
+  var seeder = require("mongoose-seed");
 
 // Connect to MongoDB via Mongoose
 seeder.connect(

@@ -23,7 +23,7 @@ var data = [
     model: "CpuModel",  
     documents: [
       {
-        id: 1,
+        id: 1,  
         processor: "AMD Ryzen",
         model: "3",
         varaint: "1200",

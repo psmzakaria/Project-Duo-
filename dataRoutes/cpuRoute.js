@@ -2,7 +2,7 @@ const express = require("express");
 const cpurouter = express.Router();
 const CpuModel = require("./../models/cpu");
 const { passport } = require("./passport");
-let cpuData = require("./../utilis/cpuprocessorData.json");
+
 
 //GET all the cpu data
 cpurouter.get("/", async (req, res, next) => {
