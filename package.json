@@ -7,7 +7,8 @@
     "start": "node server.js",
     "dev": "npx nodemon",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "seed":"node seeder/cpu-seeder.js"
   },
   "keywords": [],
   "author": "",
