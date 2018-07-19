@@ -8,12 +8,13 @@
     "dev": "npx nodemon",
     "test": "jest",
     "test:watch": "jest --watch",
-    "seed":"node seeder/cpu-seeder.js"
+    "seed": "node seeder/cpu-seeder.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "jest": "^23.4.1",
     "mongoose": "^5.2.4",

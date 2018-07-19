@@ -1,0 +1,191 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Gaming Desktop PC E-commerce API",
+    "description":
+      "This is API for an E-commerce web app which deals with gaming desktops.PC parts with all essential details such as models,price,compatibility can be obtained from this API."
+  },
+  "servers": [
+    {
+      "url": "https://peaceful-journey-63547.herokuapp.com"
+    }
+  ],
+  "paths": {
+    "/cpu": {
+      "get": {
+        "summary": "List all cpus from the database",
+        "tags": ["cpu"],
+        "responses": {
+          "200": {
+            "description": "Gets a lists of all CPUs with prices",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "example": {
+                      "id": 1,
+                      "processor": "AMD Ryzen",
+                      "model": "3",
+                      "variant": "1200",
+                      "price": 148
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "List all cpus from the database",
+        "tags": ["cpu"],
+        "parameters": [
+          {
+            "name": "Authorisation",
+            "in": "header",
+            "required": true,
+            "description": "You need authorisation to delete CPU",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Deletes a CPU from the database",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "example": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+
+      "post": {
+        "summary": "Addition of a new CPU into database",
+        "tags": ["cpu"],
+        "parameters": [
+          {
+            "name": "Authorisation",
+            "in": "header",
+            "required": true,
+            "description": "You need authorisation to enter",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "You have created a new CPU Processor"
+          },
+          "401": {
+            "description": "Unauthorised"
+          }
+        }
+      }
+    },
+    "/cpu/{id}": {
+      "get": {
+        "summary": "Get a CPU of a particular ID from MongoDB",
+        "tags": ["cpu"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "The id of the resource to retrieve",
+            "schema": {
+              "type": "number"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Expected response to a valid request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "example": {
+                    "id": 1,
+                    "processor": "AMD Ryzen",
+                    "model": "3",
+                    "variant": "1200",
+                    "price": 148
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Updates a particular CPU in the database",
+        "tags": ["cpu"],
+        "parameters": [
+          {
+            "name": "Authorisation",
+            "in": "header",
+            "required": true,
+            "description": "You need authorisation to ",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "The id of the resource to retrieve",
+            "schema": {
+              "type": "number"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Updated fields for resource",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "example": {
+                  "id": 1,
+                  "processor": "AMD Ryzen",
+                  "model": "3",
+                  "variant": "1200",
+                  "price": 148
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Expected response to a valid request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "example": {
+                    "id": 1,
+                    "processor": "AMD Ryzen",
+                    "model": "3",
+                    "variant": "1400",
+                    "price": 500
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
