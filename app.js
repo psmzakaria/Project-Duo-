@@ -3,7 +3,7 @@ const express = require("express");
 const { passport } = require("./dataRoutes/passport");
 const morgan = require("morgan");
 const cpurouter = require("./dataRoutes/cpuRoute");
-const docRouter=require("./dataRoutes/documentationRoute")
+const docRouter = require("./dataRoutes/documentationRoute");
 const motherboardrouter = require("./dataRoutes/motherboardroute");
 const { handle404, handle500 } = require("./Middleware/errorHandler");
 const router = require("./dataRoutes/userroute");
@@ -13,9 +13,7 @@ const mongodb_uri =
 
 mongoose.connect(mongodb_uri);
 const db = mongoose.connection;
-db.on("error", () => {
-  console.error("An error has occured====>");
-});
+db.on("error", () => {});
 const app = express();
 app.use(morgan("dev"));
 app.use(express.json());
@@ -27,7 +25,7 @@ app.get("/", function(req, res) {
 motherboardrouter(app);
 router(app);
 cpurouter(app);
-docRouter(app)
+docRouter(app);
 app.use(handle404);
 app.use(handle500);
 
