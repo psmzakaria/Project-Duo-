@@ -3,6 +3,7 @@ const express = require("express");
 const { passport } = require("./dataRoutes/passport");
 const morgan = require("morgan");
 const cpurouter = require("./dataRoutes/cpuRoute");
+const docRouter=require("./dataRoutes/documentationRoute")
 const motherboardrouter = require("./dataRoutes/motherboardroute");
 const { handle404, handle500 } = require("./Middleware/errorHandler");
 const router = require("./dataRoutes/userroute");
@@ -26,6 +27,7 @@ app.get("/", function(req, res) {
 motherboardrouter(app);
 router(app);
 cpurouter(app);
+docRouter(app)
 app.use(handle404);
 app.use(handle500);
 

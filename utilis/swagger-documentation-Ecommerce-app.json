@@ -3,8 +3,7 @@
   "info": {
     "version": "1.0.0",
     "title": "Gaming Desktop PC E-commerce API",
-    "description":
-      "This is API for an E-commerce web app which deals with gaming desktops.PC parts with all essential details such as models,price,compatibility can be obtained from this API."
+    "description": "This is API for an E-commerce web app which deals with gaming desktops.PC parts with all essential details such as models,price,compatibility can be obtained from this API."
   },
   "servers": [
     {
@@ -15,7 +14,9 @@
     "/cpu": {
       "get": {
         "summary": "List all cpus from the database",
-        "tags": ["cpu"],
+        "tags": [
+          "cpu"
+        ],
         "responses": {
           "200": {
             "description": "Gets a lists of all CPUs with prices",
@@ -40,7 +41,9 @@
       },
       "delete": {
         "summary": "List all cpus from the database",
-        "tags": ["cpu"],
+        "tags": [
+          "cpu"
+        ],
         "parameters": [
           {
             "name": "Authorisation",
@@ -60,7 +63,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "example": {}
+                    "example": null
                   }
                 }
               }
@@ -68,10 +71,11 @@
           }
         }
       },
-
       "post": {
         "summary": "Addition of a new CPU into database",
-        "tags": ["cpu"],
+        "tags": [
+          "cpu"
+        ],
         "parameters": [
           {
             "name": "Authorisation",
@@ -96,7 +100,9 @@
     "/cpu/{id}": {
       "get": {
         "summary": "Get a CPU of a particular ID from MongoDB",
-        "tags": ["cpu"],
+        "tags": [
+          "cpu"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -129,7 +135,9 @@
       },
       "put": {
         "summary": "Updates a particular CPU in the database",
-        "tags": ["cpu"],
+        "tags": [
+          "cpu"
+        ],
         "parameters": [
           {
             "name": "Authorisation",
