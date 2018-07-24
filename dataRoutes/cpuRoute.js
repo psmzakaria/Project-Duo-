@@ -37,7 +37,7 @@ cpuRouter.put(
   "/:id",
   passport.authenticate("jwt", { session: false }),
   async (req, res, next) => {
-    const testing = await CpuModel.findByIdAndUpdate(req.params.id, req.body);
+    await CpuModel.findByIdAndUpdate(req.params.id, req.body);
     res.status(204).json();
   }
 );
