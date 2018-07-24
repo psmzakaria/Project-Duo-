@@ -13,7 +13,10 @@ const mongodb_uri =
 
 mongoose.connect(mongodb_uri);
 const db = mongoose.connection;
-db.on("error", () => {});
+db.on("error", error => {
+  console.error("An error occurred!", error);
+});
+
 const app = express();
 app.use(morgan("dev"));
 app.use(express.json());
