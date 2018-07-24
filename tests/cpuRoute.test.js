@@ -48,7 +48,7 @@ afterAll(() => {
 });
 
 test("GET /cpu should return back all the cpus in the test DB", async () => {
-  const response = await request(app).get("/cpu");
+  const response = await request(app).get("/cpus");
   const expectedCpus = await cpuModel.find();
 
   expect(response.status).toBe(200);
@@ -56,7 +56,7 @@ test("GET /cpu should return back all the cpus in the test DB", async () => {
 });
 
 test("GET/:id", async () => {
-  const response = await request(app).get("/cpu/" + savedCpus1._id);
+  const response = await request(app).get("/cpus/" + savedCpus1._id);
   expect(response.status).toBe(200);
   expect(response.body.id).toEqual(savedCpus1.id);
 });
@@ -71,7 +71,7 @@ test("POST/", async () => {
   };
 
   const response = await request(app)
-    .post("/cpu")
+    .post("/cpus")
     .send(newCpu)
     .set("Authorization", "Bearer " + jwtTokenUser1);
 
@@ -81,10 +81,10 @@ test("POST/", async () => {
   expect(cpus.length).toBe(4);
 });
 
-test("PUT /cpu should update the cpus with a given id the test DB", async () => {
+test("PUT /cpus should update the cpus with a given id the test DB", async () => {
   const updateCpu = { processor: "AMD Ryzen New" };
   const response = await request(app)
-    .put("/cpu/" + savedCpus1._id)
+    .put("/cpus/" + savedCpus1._id)
     .send(updateCpu)
     .set("Authorization", "Bearer " + jwtTokenUser1);
 
@@ -96,7 +96,7 @@ test("PUT /cpu should update the cpus with a given id the test DB", async () => 
 
 test("Delete/ a cpu with a given id should be deleted from the test DB", async () => {
   const response = await request(app)
-    .delete("/cpu/" + savedCpus1._id)
+    .delete("/cpus/" + savedCpus1._id)
     .set("Authorization", "Bearer " + jwtTokenUser1);
   const deleteCpu = await cpuModel.findById(savedCpus1._id);
 

@@ -3,7 +3,6 @@ const cpuRouter = express.Router();
 const CpuModel = require("./../models/cpu");
 const { passport } = require("./passport");
 
-
 //GET all the cpu data
 cpuRouter.get("/", async (req, res, next) => {
   const cpu = await CpuModel.find();
@@ -56,5 +55,5 @@ cpuRouter.delete(
 //Export router in a mongodb use case
 module.exports = app => {
   app.use(express.json());
-  app.use("/cpu", cpuRouter);
+  app.use("/cpus", cpuRouter);
 };
