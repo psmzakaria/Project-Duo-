@@ -8,14 +8,6 @@ const motherboardRouter = require("./dataRoutes/motherboardroute");
 const { handle404, handle500 } = require("./Middleware/errorHandler");
 const router = require("./dataRoutes/userroute");
 const bodyParser = require("body-parser");
-const mongodb_uri =
-  process.env.MONGODB_URI || "mongodb://localhost/mongoDB-computers";
-
-mongoose.connect(mongodb_uri);
-const db = mongoose.connection;
-db.on("error", error => {
-  console.error("An error occurred!", error);
-});
 
 const app = express();
 app.use(morgan("dev"));
