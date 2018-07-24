@@ -20,13 +20,7 @@ cpuRouter.post(
   "/",
   passport.authenticate("jwt", { session: false }),
   async (req, res, next) => {
-    const newCpu = new CpuModel({
-      id: req.body.id,
-      processor: req.body.processor,
-      model: req.body.model,
-      varaint: req.body.variant,
-      price: req.body.price
-    });
+    const newCpu = new CpuModel({ ...req.body });
     await newCpu.save();
     res.status(201).json({ message: `You have created a new CPU Processor` });
   }
