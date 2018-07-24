@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // Create a schema
-const cpuschema = mongoose.Schema({
+const cpuSchema = mongoose.Schema({
   id: Number,
   processor: String,
   model: String,
@@ -10,5 +10,5 @@ const cpuschema = mongoose.Schema({
 });
 
 //Export model
-const CpuModel = mongoose.model("CpuModel", cpuschema);
+const CpuModel = mongoose.model("CpuModel", cpuSchema);
 module.exports = CpuModel;
