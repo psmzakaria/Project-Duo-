@@ -1,15 +1,16 @@
 const request = require("supertest");
 const express = require("express");
-const cpurouter = require("./../dataRoutes/cpuRoute");
+const cpuRouter = require("./../dataRoutes/cpuRoute");
 const cpuModel = require("./../models/cpu");
 const { MongoMemoryServer } = require("mongodb-memory-server");
 const mongod = new MongoMemoryServer();
 const mongoose = require("mongoose");
-const userroute = require("./../dataRoutes/userroute");
+const usersRouter = require("./../dataRoutes/userroute");
 const app = express();
-cpurouter(app);
-userroute(app);
+cpuRouter(app);
+usersRouter(app);
 let savedCpus1;
+let jwtTokenUser1;
 
 async function addFakeCpus() {
   const cpu1 = new cpuModel({
