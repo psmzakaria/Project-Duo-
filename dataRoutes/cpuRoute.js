@@ -1,23 +1,23 @@
 const express = require("express");
-const cpurouter = express.Router();
+const cpuRouter = express.Router();
 const CpuModel = require("./../models/cpu");
 const { passport } = require("./passport");
 
 
 //GET all the cpu data
-cpurouter.get("/", async (req, res, next) => {
+cpuRouter.get("/", async (req, res, next) => {
   const cpu = await CpuModel.find();
   res.status(200).json(cpu);
 });
 
 //GET only processor data
-cpurouter.get("/:id", async (req, res, next) => {
+cpuRouter.get("/:id", async (req, res, next) => {
   const findCpu = await CpuModel.findById(req.params.id);
   res.json(findCpu);
 });
 
 //POST processor data
-cpurouter.post(
+cpuRouter.post(
   "/",
   passport.authenticate("jwt", { session: false }),
   async (req, res, next) => {
@@ -34,7 +34,7 @@ cpurouter.post(
 );
 
 //PUT processor data via id number
-cpurouter.put(
+cpuRouter.put(
   "/:id",
   passport.authenticate("jwt", { session: false }),
   async (req, res, next) => {
@@ -44,7 +44,7 @@ cpurouter.put(
 );
 
 //DELETE processor by its id number
-cpurouter.delete(
+cpuRouter.delete(
   "/:id",
   passport.authenticate("jwt", { session: false }),
   async (req, res, next) => {
@@ -56,5 +56,5 @@ cpurouter.delete(
 //Export router in a mongodb use case
 module.exports = app => {
   app.use(express.json());
-  app.use("/cpu", cpurouter);
+  app.use("/cpu", cpuRouter);
 };
