@@ -6,7 +6,6 @@ const { jwtOptions } = require("./passport");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  console.log(req.user);
   res.json({ message: "Express is up!" });
 });
 
@@ -45,8 +44,6 @@ router.post("/signin", async (req, res) => {
   }
 });
 module.exports = app => {
-    app.use(express.json());
-    app.use("/users", router);
-  };
-  
-
+  app.use(express.json());
+  app.use("/users", router);
+};
